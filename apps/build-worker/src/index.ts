@@ -1,0 +1,1 @@
+console.log('@deploycore/build-worker initialized');

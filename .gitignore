@@ -1,0 +1,35 @@
+node_modules/
+.pnpm-store/
+dist/
+build/
+.next/
+.env
+.env.local
+.env.*.local
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*
+pnpm-debug.log*
+.docker/
+*.pem
+*.key
+*.p12
+*.crt
+*.csr
+*.jks
+packages/database/prisma/*.db
+packages/database/prisma/*.db-journal
+coverage/
+
+# Local archives / transfer files
+*.zip
+*.b64
+*.tar.gz
+
+# TypeScript build cache
+*.tsbuildinfo

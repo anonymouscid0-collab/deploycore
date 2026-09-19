@@ -1,0 +1,1 @@
+export default function Home() { return <main><h1>DeployCore Web</h1></main> }

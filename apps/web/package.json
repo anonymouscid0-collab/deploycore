@@ -1,0 +1,27 @@
+{
+  "name": "@deploycore/web",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "NEXT_PRIVATE_LOCAL_SWC=true next dev -p 3000",
+    "build": "NEXT_PRIVATE_LOCAL_SWC=true next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@deploycore/types": "workspace:*",
+    "@deploycore/config": "workspace:*",
+    "next": "13.5.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@next/swc-wasm-nodejs": "13.5.6",
+    "@types/node": "^20.12.12",
+    "@types/react": "^18.3.2",
+    "@types/react-dom": "^18.3.0",
+    "typescript": "^5.4.5",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "13.5.6"
+  }
+}
